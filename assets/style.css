@@ -848,3 +848,6 @@ button.close {
 code {
     color: #d05810;
 }
+.featured-posts > .row > div {
+    flex: 2 2 50%;
+  }
