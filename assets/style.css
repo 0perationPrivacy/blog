@@ -848,6 +848,13 @@ button.close {
 code {
     color: #d05810;
 }
-.featured-posts > .row > div {
+@media (min-width: 795px)
+{
+    .featured-posts > .row > div {
     flex: 2 2 50%;
-  }
+    }    
+  .featured-posts > .row > .card-group:nth-last-child(1) {
+    max-height: 360px;
+    object-fit: cover;
+    }
+}
